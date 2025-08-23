@@ -1,0 +1,109 @@
+/* Загальні стилі */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+}
+
+/* Шапка */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #00ffcc;
+}
+
+header .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+header .logo span {
+  font-size: 14px;
+  color: #888;
+}
+
+header nav a {
+  margin: 0 10px;
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #00ffcc;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #00ffcc;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #00ffcc;
+  color: #0f0f0f;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #00e6b8;
+}
+
+/* Розділи */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #00ffcc;
+  margin-bottom: 20px;
+}
+
+/* Картки серверів */
+.project-card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #00ffcc;
+}
+
+/* Контакти */
+.contacts a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  text-decoration: underline;
+}
+
+/* Футер */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1a1a1a;
+  color: #777;
+  border-top: 2px solid #00ffcc;
+}
