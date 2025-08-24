@@ -107,3 +107,57 @@ footer {
   color: #777;
   border-top: 2px solid #00ffcc;
 }
+
+/* 🇺🇦 Прапор і текст */
+#independence-flag {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  text-align: center;
+  z-index: 1000;
+}
+
+#independence-flag .flag {
+  width: 50px;
+  height: 30px;
+  border: 2px solid #000;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  animation: wave 2s infinite ease-in-out;
+  margin: 0 auto 5px auto;
+}
+
+#independence-flag .blue {
+  background: #0057b7;
+  height: 50%;
+  width: 100%;
+}
+
+#independence-flag .yellow {
+  background: #ffd700;
+  height: 50%;
+  width: 100%;
+}
+
+#independence-flag .flag-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0057b7;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 3px 8px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  animation: pulse 3s infinite;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg) scale(1); }
+  25% { transform: rotate(1deg) scale(1.02); }
+  50% { transform: rotate(0deg) scale(1); }
+  75% { transform: rotate(-1deg) scale(1.02); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
